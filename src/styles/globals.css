@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --transition-default: 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+html {
+  @apply bg-gray-50;
+  transition: var(--transition-default);
+}
+
+@layer utilities {
+  @variants responsive {
+    .masonry {
+      column-count: 2;
+      column-gap: 1.5em;
+      fit-width: true;
+    }
+    .break-inside {
+      break-inside: avoid;
+    }
+    @screen lg {
+      .masonry {
+        column-count: 3;
+      }
+    }
+  }
+}
