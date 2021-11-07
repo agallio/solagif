@@ -10,7 +10,6 @@ Web3 app to store GIFs inside your Solana wallet!
 | [TypeScript](https://www.typescriptlang.org/)                    |
 | [Tailwind CSS](https://tailwindcss.com/)                         |
 | [Radix UI](https://www.radix-ui.com/)                            |
-| [Radix UI](https://www.radix-ui.com/)                            |
 | [Solana](https://solana.com/)                                    |
 | [@project-serum/anchor](https://github.com/project-serum/anchor) |
 | [Vercel](https://vercel.com/)                                    |
